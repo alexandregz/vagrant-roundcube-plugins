@@ -75,6 +75,7 @@ function install_roundcube() {
 function install_roundcube_plugins() {
   ln -s /vagrant/plugins/mailforward /var/lib/roundcube/plugins/
   ln -s /vagrant/plugins/amavisspamsettings /var/lib/roundcube/plugins/
+  ln -s /vagrant/plugins/twofactor_gauthenticator/var/lib/roundcube/plugins/
   rm /etc/roundcube/main.inc.php
   cp /vagrant/config/main.inc.php /etc/roundcube/
   chown root:www-data /etc/roundcube/main.inc.php

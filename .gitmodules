@@ -4,3 +4,6 @@
 [submodule "plugins/amavisspamsettings"]
 	path = plugins/amavisspamsettings
 	url = git@github.com:adfinis-sygroup/roundcube-plugin-amavisspamsettings.git
+[submodule "plugins/twofactor_gauthenticator"]
+	path = plugins/twofactor_gauthenticator
+	url = git@github.com:alexandregz/twofactor_gauthenticator.git
